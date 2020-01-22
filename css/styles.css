@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  background-image: linear-gradient(indigo, skyblue, goldenrod, darkred);
+  text-align: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#btn {
+  border: 3px solid black;
+  border-radius: 8%;
+  background-image: radial-gradient(black, indigo, cyan);
+  color: silver;
+
+}
+
+#btn:hover {
+  cursor: pointer;
+}
+
+#hidden p {
+  font-size: 40px;
+}
+
+#hidden {
+  display: none;
+}
