@@ -4,13 +4,13 @@ $(document).ready(function() {
     var flavors = ['Naked Vanilla', 'Salted Caramel', 'Super Berry Swirl'];
     var currentFlavor = flavors[index];
     if (index < 3) {
-      $("#flav").append(currentFlavor + " <br>");
+      $("#flav").text(currentFlavor);
       index++
     } else if (index === 3) {
-      $("#flav").prepend("These are all the flavors I know<br>" );
+      $("#flav").text("These are all the flavors I know");
       index++
     } else {
-
+      location.reload();
     }
     event.preventDefault();
     });

@@ -7,8 +7,8 @@ body {
 }
 
 #btn {
-  border: 3px solid black;
-  border-radius: 8%;
+  border: 6px solid black;
+  border-radius: 10%;
   background-image: radial-gradient(black, indigo, cyan);
   color: silver;
 
@@ -24,4 +24,5 @@ body {
 
 #hidden {
   display: none;
+  padding-top: 50px;
 }
